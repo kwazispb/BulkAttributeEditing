@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26ae47b5-a8aa-4106-9207-e05165289515">
+  <producedTypes>
+    <objectType typeId="e746b637-4a3f-4e65-b014-ef62c331079b" valueTypeId="4070c1ce-be7d-4ee7-8e84-2dd266d1bca0"/>
+    <refType typeId="20a77e93-b891-4493-b283-1068058a2f1d" valueTypeId="2a115ef2-ba50-414e-80dc-45df28a2555f"/>
+    <selectionType typeId="2d91a2ce-f1fa-4394-916f-267d8687addf" valueTypeId="d2b40193-1694-4369-b3c5-e09cfe5e8c86"/>
+    <listType typeId="4e7ccbfd-e1ab-42ac-bc49-be4bfdb6ce4c" valueTypeId="41bd8c97-8e24-45ff-af03-3c2e54415608"/>
+    <managerType typeId="d5887059-ecc8-489b-a1d7-202ffd45741a" valueTypeId="20831935-6be1-4ba1-b9a7-be8bec601e3b"/>
+    <containerType typeId="eb433784-16ec-4f9f-9f46-55efda528292" valueTypeId="a86e2e3f-335e-46f7-b536-b6a4e8acad60"/>
+  </producedTypes>
+  <name>ДополнительныеРеквизитыИСведения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <type>Checked</type>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>AnyRef</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

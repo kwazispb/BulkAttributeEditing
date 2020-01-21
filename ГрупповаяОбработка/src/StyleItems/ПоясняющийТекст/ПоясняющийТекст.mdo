@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="688949b4-83f4-4aae-a138-b5dc19c19abd">
+  <name>ПоясняющийТекст</name>
+  <comment>Оформление справочного текста в форме</comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:StyleItemExtension">
+    <type>Checked</type>
+    <value>Extended</value>
+  </extension>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>128</red>
+      <green>122</green>
+      <blue>89</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

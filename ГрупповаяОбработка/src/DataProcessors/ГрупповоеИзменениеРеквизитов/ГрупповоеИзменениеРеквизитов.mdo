@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5628e9d7-e4e2-4dd5-a1d1-01fd575b349c">
+  <producedTypes>
+    <objectType typeId="fbf9d943-2394-46bf-92d1-cb50eddcd108" valueTypeId="eff56b43-9d52-40d2-98a5-539329233650"/>
+    <managerType typeId="b4ee3d71-19cc-4078-94d8-fe295b7b7764" valueTypeId="5cdde3ba-bfde-4edc-b17c-9faddb33be96"/>
+  </producedTypes>
+  <name>ГрупповоеИзменениеРеквизитов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="7b214b5e-d1e3-401d-9091-ae9e16cd12ca">
+    <name>ГР_ВыполнитьКодПередЗаписьюЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить код перед записью элемента</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </attributes>
+  <attributes uuid="79ccf170-6026-4a95-b11d-511f67cf7f14">
+    <name>ГР_КодПередЗаписью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код перед записью</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </attributes>
+  <attributes uuid="5810e47f-6c0e-4e96-af02-ae4774723988">
+    <name>ТипОперации</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="6d1d8364-a9ca-40c6-b94a-b80a1ab01023">
+    <name>ВариантЗаписиОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>12</length>
+      </stringQualifiers>
+    </type>
+  </attributes>
+  <attributes uuid="5619d409-4b9a-4a2d-ab46-316fde9477e7">
+    <name>РежимВыполнения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </attributes>
+  <forms uuid="2c966609-3c61-4782-9024-9c581ed8a967">
+    <name>ДополнительныеПараметры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="746db050-87ab-4f35-9908-20bf85c45794">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="db210772-7875-4aa9-83cd-468584c8cc04">
+    <name>ГР_ШаблоныКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны кода</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>
